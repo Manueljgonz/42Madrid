@@ -11,11 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-// nmemb son los objetos que necesitas (char por ej) y size el 
-// tamaño de cada objeto 
-// if (nmemb != 0 && size != 0 && (nmemb > ((size_t)-1) / size))
-// Esta linea se asegura de no ser 0 para no dividir entre 0 y 
-// lo otro para que quepa en la memoria
+
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	unsigned char	*reserve;
