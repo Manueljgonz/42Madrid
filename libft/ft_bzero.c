@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-// n es el número de bytes que van a ser rellenados con 0
+
 void	ft_bzero(void *s, size_t n)
 {
 	unsigned char	*p;
